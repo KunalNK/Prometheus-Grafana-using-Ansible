@@ -5,12 +5,6 @@
   become_method: sudo
   roles:
     - prometheus
-
-- hosts: localhost
-  become: yes
-  become_user: root
-  become_method: sudo
-  roles:
     - grafana
 
 
